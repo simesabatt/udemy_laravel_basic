@@ -1,3 +1,19 @@
+利用方法
+
+zipファイルをダウンロード->解凍
+
+composer install か composer update
+
+npm i && npm run dev
+
+.env.exampleを.envにコピーし必要情報を記入
+
+php artisan migrate:fresh --seed
+
+php artisan key:generate // キー生成
+
+php artisan serve
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
